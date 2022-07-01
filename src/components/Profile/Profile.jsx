@@ -20,15 +20,15 @@ export default function Profile({ username, tag, location, avatar, stats }) {
 
   <ul class="stats">
     <li>
-        <span class="label" >followers   </span>
+        <span class="label" >Followers   </span>
       <span class="quantity">5603</span>
     </li>
     <li>
-      <span class="label">views   </span>
+      <span class="label">Views   </span>
       <span class="quantity">   4827</span>
     </li>
     <li>
-        <span class="label" >stats.likes   </span>
+        <span class="label" >Stats.likes   </span>
       <span class="quantity">1308</span>
     </li>
   </ul>
