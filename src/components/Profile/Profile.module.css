@@ -39,17 +39,17 @@
 
 .stats__item {
     display: flex;
-    flex-basis: calc(100% / 3 );
+    flex-basis: calc(100% / 3);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 15px 5px;
     background-color: rgb(240, 240, 240);
+}
 
-        :not(:last-child) {
-        border-right: 1px solid #c0c0c0;
-    }
-};
+.stats__item:not(:last-child) {
+    border-right: 1px solid #c0c0c0;
+}
 
 .label {
     font-size: 12px;
