@@ -7,8 +7,8 @@ import {
 } from 'components/Profile/Profile.styled';
 import PropTypes from 'prop-types';
 
-const Profile = ({ user }) => {
-  const { username, avatar, tag, location, stats } = user;
+const Profile = ({ username, avatar, tag, location, stats }) => {
+  // const { username, avatar, tag, location, stats } = user;
   return (
     <ProfileCard>
       <Description>
