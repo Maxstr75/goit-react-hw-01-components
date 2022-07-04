@@ -1,4 +1,4 @@
-import styled from "@emotion/styled";
+import styled from '@emotion/styled';
 
 export const FriendContainer = styled.ul`
   display: flex;
@@ -6,9 +6,9 @@ export const FriendContainer = styled.ul`
   width: 300px;
   padding: 0px;
   margin-top: 50px;
-`
+`;
 export const Item = styled.li`
-  margin-top:10px;
+  margin-top: 10px;
   display: flex;
   align-items: center;
   padding: 18px;
@@ -28,7 +28,7 @@ export const Item = styled.li`
 export const OnlineLabel = styled.div`
   width: 30px;
   height: 30px;
-  background-color: ${p => (p.isOnline ? 'green' : 'red')};
+  background-color: ${props => (props.isOnline ? 'green' : 'red')};
   border-radius: 50%;
 `;
 

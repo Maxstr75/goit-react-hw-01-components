@@ -15,12 +15,12 @@ const Statistics = ({ title = 'Upload stats', stats }) => {
       <Title>{title}</Title>
 
       <StatList>
-        {stats.map(({ id, label, percentage })  =>
+        {stats.map(({ id, label, percentage }) => (
           <StatItem key={id} backgroundColor={randomColor()}>
             <LineText>{label}</LineText>
             <LineText>{percentage}</LineText>
           </StatItem>
-        )}
+        ))}
       </StatList>
     </StatisticsCard>
   );
@@ -36,4 +36,4 @@ Statistics.propTypes = {
     })
   ),
 };
-export default Statistics
+export default Statistics;
