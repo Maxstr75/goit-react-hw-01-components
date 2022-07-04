@@ -1,6 +1,5 @@
 import styled from '@emotion/styled';
 
-
 export const ProfileCard = styled.div`
   width: max-content;
   height: max-content;
@@ -64,4 +63,3 @@ export const Name = styled.div`
   font-weight: bold;
 }
 `;
-
