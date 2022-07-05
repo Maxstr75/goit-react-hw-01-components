@@ -12,7 +12,7 @@ const Statistics = ({ title = 'Upload stats', stats }) => {
 
   return (
     <StatisticsCard>
-      <Title>{title}</Title>
+      {title && <Title>{title}</Title>}
 
       <StatList>
         {stats.map(({ id, label, percentage }) => (
