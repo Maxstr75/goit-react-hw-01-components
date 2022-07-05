@@ -1,3 +1,4 @@
+import { randomColor } from 'helpers/randomColor';
 import PropTypes from 'prop-types';
 import {
   StatisticsCard,
@@ -8,8 +9,6 @@ import {
 } from './Statistics.styled';
 
 const Statistics = ({ title = 'Upload stats', stats }) => {
-  const randomColor = () => 'hsla(' + Math.random() * 360 + ', 100%, 50%, 1)';
-
   return (
     <StatisticsCard>
       {title && <Title>{title}</Title>}
